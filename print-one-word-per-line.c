@@ -1,22 +1,20 @@
 #include <stdio.h>
 
 int main() {
-  char c;
-  char last_char = -1;
+  int c, prev;
+  prev = EOF;
 
   while ((c = getchar()) != EOF) {
-    if ((c == ' ' || c == '\t' || c == '\n')) {
-      if (c != last_char) {
+    if (c == ' ' || c == '\t' || c == '\n') {
+      if (prev != ' ' && prev != '\t' && prev != '\n') {
         putchar('\n');
       }
     } else {
       putchar(c);
     }
 
-    last_char = c;
+    prev = c;
   }
 
   return 0;
 }
-
-/* ' '\n\t */

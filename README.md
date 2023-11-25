@@ -6,8 +6,21 @@ and to track my progress.
 Following **The C Programming Language** by _Brian W. Kernighan_
 and _Dennis M. Ritchie_ in the 2nd edition for now.
 
-Currently at: **Chapter 1.5.2**
+Currently at: **Chapter 1.6**
 
 ## Notes
 
 - integer divison _truncates_
+
+- _null statements_ satisfy statement body constraints
+
+  ```c
+  for (c = 0; getchar() != EOF; ++c)
+    ;
+  ```
+
+- _character constants_ are numerical values of character: `'a'` is 97 in ASCII
+- because assingments are left associating expressions you can do:
+  ```c
+  nl = nw = nc = isSeq = 0
+  ```
