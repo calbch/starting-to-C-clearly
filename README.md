@@ -6,7 +6,7 @@ and to track my progress.
 Following **The C Programming Language** by _Brian W. Kernighan_
 and _Dennis M. Ritchie_ in the 2nd edition for now.
 
-Currently at: **Chapter 2**
+Currently at: **Chapter 2.8**
 
 ## Notes
 
@@ -26,4 +26,3 @@ Currently at: **Chapter 2**
   ```c
   nl = nw = nc = isSeq = 0
   ```
-
