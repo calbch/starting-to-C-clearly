@@ -6,6 +6,7 @@ and to track my progress.
 Following **The C Programming Language** by _Brian W. Kernighan_
 and _Dennis M. Ritchie_ in the 2nd edition for now.
 
+**Currently at:** Exercise 2-8.
 
 ---
 
