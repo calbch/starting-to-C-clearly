@@ -6,14 +6,14 @@ and to track my progress.
 Following **The C Programming Language** by _Brian W. Kernighan_
 and _Dennis M. Ritchie_ in the 2nd edition for now.
 
-**Currently at:** Exercise 2-8.
+**Currently at:** Chapter 3.
 
 ---
 
 Next Session:
 
-- Exercises 2
-- Chapter 3
+- Exercises 3
+- Chapter 4
 
 ## Notes
 
@@ -162,3 +162,6 @@ int bar, baz;
     ...
 }
 ```
+
+- `-1` flips bits starting from the rightmost 1-bit to the LSB
+- `x &= (x - 1)` clears the rightmost 1-bit
