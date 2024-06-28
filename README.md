@@ -6,14 +6,11 @@ and to track my progress.
 Following **The C Programming Language** by _Brian W. Kernighan_
 and _Dennis M. Ritchie_ in the 2nd edition for now.
 
-**Currently at:** Chapter 3.
-
----
+**Currently at:** Chapter 4.4
 
 Next Session:
 
-- Exercises 3
-- Chapter 4
+- Exercises from 3.3 to 4
 
 ## Notes
 
@@ -150,6 +147,33 @@ In the absence of a _function prototype_ the compiler has to make assumptions ab
     ```
 
 - **DON't WRITE CODE THAT DEPENDS ON THE ORDER OF EVALUATION**
+
+### Control Flow
+
+- expression becomes a statement when followed by `;`
+
+-_compound statements_ (blocks) are grouped by `{ }`
+
+- compound statements are syntactically equivalent to single statement
+
+- use else to make statements more clear when needed
+
+- switches have _fall-through_ execution; _fall-through_
+  * should be used sparingly
+  * should be commented
+
+- add break at the end of the last case (not necessary but good practice) if another case gets added some day
+
+- infinite loop can be ended with `break` or `return`
+  ```c
+  for (;;) {
+    ...
+  }
+  ```
+### Functions & Program Structure
+
+- C does not allow functions to be defined inside other functions
+
 
 ## Interesting
 
